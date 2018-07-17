@@ -1,5 +1,5 @@
 const Telegraf = require('Telegraf')
-	, PostgreSQLSession = require('./index.js')
+	, PostgreSQLSession = require('./../index.js')
 
 const bot = new Telegraf('token')
 

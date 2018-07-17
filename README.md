@@ -12,7 +12,7 @@ $ npm install telegraf-session-postgresql
 
 you should create a table named sessions in your database.
 ```SQL
-CREATE TABLE telegraf_session(id varchar, session varchar)
+CREATE TABLE telegraf_session(id varchar, session varchar);
 ```
 
 ## Example
