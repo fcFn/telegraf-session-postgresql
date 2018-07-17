@@ -1,6 +1,6 @@
 {
   "name": "telegraf-session-postgresql",
-  "version": "1.0.0001",
+  "version": "1.0.1",
   "description": "PostgreSQL  powered session middleware for Telegraf",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,9 @@
   },
   "keywords": [
     "telegram",
-    "telegram",
-    "bot",
+    "telegram bot",
     "telegraf",
-    "bot",
-    "framework",
+    "bot framework",
     "session",
     "middleware",
     "postgresql"
