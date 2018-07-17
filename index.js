@@ -59,8 +59,14 @@ class PostgreSQLSession {
 				const pg = new Client(this.connecty_params)
 				pg.connect()
 				pg.query(`SELECT session FROM telegraf_session WHERE id = '${id}'`, (err, data) => {
+					if (err) {
+						ctx.session = this.session[id] = {}
+						pg.end()
+						next()
+					}					
+
 					if (data.rows.length == 0) {
-						pg.query(`INSERT INTO telegraf_session (id, session) VALUES ('${id}', '{}')`, () => {
+						pg.query(`INSERT INTO telegraf_session (id, session) VALUES ('${id}', '{}')`, err => {
 							ctx.session = this.session[id] = {}
 							pg.end()
 							next()
