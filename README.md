@@ -51,4 +51,4 @@ my telegram: @JSusDev, channel https://t.me/Jsusdevs
 if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know
 
 ##### telegraf-session-postgresql by JSus
-![logo](https://jsusdev.github.io/home-page/logo_40.png?, "By JSus")
+![logo](https://jsusdev.github.io/home-page/logo/logo_40.png?, "By JSus")
