@@ -48,6 +48,6 @@ The database connection configuration is described in The PostgreSQL API -- [Pos
 
 my telegram: @JSusDev, channel https://t.me/Jsusdevs
 
-if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know
+if you have any questions and suggestions please email me in telegram if you find bugs I will be very grateful if you also let me know.
 
 ![logo](https://jsusdev.github.io/home-page/logo/logo_40.png?, "telegraf-session-postgresql by JSus")
