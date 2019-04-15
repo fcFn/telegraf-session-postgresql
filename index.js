@@ -39,7 +39,10 @@ class PostgreSQLSession {
 		
 		return (ctx, next) => {
 
-			const updatePayload = ctx.update.message || ctx.update.callback_query || ctx.update.inline_query;
+			const updatePayload = const updatePayload = ctx.update.message ||
+								    ctx.update.callback_query ||
+							            ctx.update.inline_query ||
+							            ctx.update.edited_message;
 			const id = updatePayload.from.id;
 			
 			if (!this.connect_users.includes(id)) {
